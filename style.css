@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    padding: 0% 2%;
+    margin: 0%;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 6px;
+}
+
+h1 {
+    margin: 0%;
+    font-size: 4rem;
+    color: #484848;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+p {
+    font-size: 2rem;
+    margin: 0%;
+}
